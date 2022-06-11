@@ -7,7 +7,7 @@ import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Modal } from './Modal/Modal';
 import { Loader } from './Loader/Loader';
 import { Button } from './Button/Button';
-import { fetchImages } from './API/FetchImages';
+import { fetchImages } from './API/fetchImages';
 
 import styles from './App.module.css';
 
