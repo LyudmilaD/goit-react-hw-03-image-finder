@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Notiflix from 'notiflix';
-// import { FcSearch } from 'react-icons/fc';
 
 import styles from '../App.module.css';
 
@@ -46,7 +45,6 @@ export class Searchbar extends Component {
           />
 
           <button type="submit" className={styles.button}>
-            {/* <FcSearch className={styles.buttonIcon} /> */}
             <span className={styles.buttonLabel}>Search</span>
           </button>
         </form>
