@@ -92,6 +92,14 @@ export class App extends Component {
       tags,
     }));
   };
+  nextPage = () => {
+    setTimeout(() => {
+      this.setState(prevState => ({
+        page: prevState.page + 1,
+        button: 'loading',
+      }));
+    }, 500);
+  };
 
   render() {
     const { isModal, modalImg, tags, loading, images, totalImg, error } =
