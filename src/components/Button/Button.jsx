@@ -3,7 +3,11 @@ import styles from '../App.module.css';
 
 export const Button = ({ handleLoadMore }) => {
   return (
-    <button type="button" className={styles.button} onClick={handleLoadMore}>
+    <button
+      type="button"
+      className={styles.buttonLoad}
+      onClick={handleLoadMore}
+    >
       Load more
     </button>
   );
